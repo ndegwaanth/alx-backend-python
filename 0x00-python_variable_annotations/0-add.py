@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """0-add.py"""
 
+
 def add(a: float, b: float) -> float:
     """
-    type-annotated function add that takes a float a and a float b as arguments
-    and returns their sum as a float.
-    arguments:
+        type-annotated function add that takes a float a and
+        float b as arguments and returns their sum as a float.
+        arguments:
                 a(float): the first value.
                 b(float): the second value
     """
