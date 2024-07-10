@@ -2,9 +2,10 @@
 """0. Async Generator"""
 import asyncio
 import random
+import typing
 
 
-async def async_generator() -> float:
+async def async_generator() -> typing.AsyncGenerator[float]:
     """
         Coroutine that loops 10 times, each time
         asynchronously waits 1 second,
