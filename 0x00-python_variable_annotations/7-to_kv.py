@@ -5,9 +5,5 @@ from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    """
-        type-annotated function to_kv that takes string
-        and int as arguments and returns a list
-    """
-
-    return [k, v**2]
+    """Function to_kv"""
+    return (k, v**2)
